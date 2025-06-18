@@ -107,8 +107,7 @@
 **TanStack Query 기반 관광/상품 플랫폼**  
 - TanStack Query로 CRUD 및 상태관리 구현  
 - 커뮤니티, 관광지, 댓글, API 검색 통합 구현  
-- 기술: React, TanStack Query, Spring Boot, JPA, Node.js
-  
+- 기술: React, TanStack Query, Spring Boot, JPA, Node.js    
 🔗 GitHub: [Travel Platform](https://github.com/woogy9999/ReactProject/tree/main/redux-mylast-project)
 
 ---
