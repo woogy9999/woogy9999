@@ -1,49 +1,82 @@
-<!-- 헤더 배너 (원한다면 이미지 링크로 변경 가능) -->
-<h1 align="center">Welcome to [Your Name]'s GitHub 👋</h1>
+<h1 align="center">👨‍💻 양현욱 | Java 기반 Full-Stack Developer</h1>
+<p align="center">끈기와 반복으로 성장하고, 구조와 협업으로 완성합니다.</p>
 
 ---
 
-## 🧑‍💻 About Me
-- 🏫 쌍용교육센터 'AWS 클라우드 기반 풀스택 과정' 수료 중  
-- 💻 백엔드 중심 풀스택 개발자 지향  
-- ☁️ Spring, Java, Oracle, Vue, Docker 기반 프로젝트 진행
+## 🚀 Tech Stack
+
+### ⚙️ Back-End
+- Java (JDK 17), Spring Framework 5, Spring Boot, JPA, MyBatis, JSP/Servlet, Django
+- REST API, OpenAPI, Elasticsearch
+
+### 🖥️ Front-End
+- React (Hooks), Redux, TanStack Query, Vue 3, Pinia, JavaScript (ES6), jQuery, Ajax
+- HTML5, CSS3, Bootstrap
+
+### 🗃️ Database
+- Oracle 21c, MySQL 8.0
+
+### 🛠 Tools & Infra
+- Eclipse, STS 3.9 / 4.24, WebStorm, VS Code, PyCharm  
+- Apache Tomcat 9, Spring Embedded Tomcat, Django Dev Server  
+- GitHub, AWS EC2, Docker, WinSCP, PuTTY  
+- ERDCloud, draw.io
 
 ---
 
-## 📊 GitHub Stats
+## 📂 Projects
 
-<!-- GitHub Stats Badge (사용자 이름에 맞게 수정 필요) -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical&hide_title=true&rank_icon=github" alt="GitHub Stats"/>
-</p>
-
----
-
-## 📝 DEV’s Log
-- 🔗 [프로젝트 정리 블로그](https://your-blog-url.com)
-- 📌 진행한 프로젝트  
-  - `Camp_Project` : 캠핑장 예약 플랫폼 (Spring + Vue)  
-  - `JobFinder` : 구인구직 게시판 (JSP + MyBatis)  
-  - `Hotel-React` : 호텔 예약 SPA (React + Redux)
+### 🔹 Camp_Project [팀 프로젝트]  
+**캠핑 종합 플랫폼 (2025.04.23 ~ 2025.05.21)**  
+- Vue.js + MyBatis 기반 다중 필터링, 좋아요, CCTV API 연동
+- 쿠키 기반 최근 본 캠핑장 기능, 예약/장바구니, 댓글 CRUD
+- 기술: Vue 3, Spring, MyBatis, JSP, Oracle, Tomcat  
+🔗 GitHub: [Camp_Project](https://github.com/SpringSecondProject)
 
 ---
 
-## 📞 Contact
-<a href="mailto:your_email@example.com"><img src="https://img.shields.io/badge/email-EA4335?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://your-blog-url.com"><img src="https://img.shields.io/badge/Tech_Blog-000000?style=flat&logo=github&logoColor=white"/></a>
+### 🔹 JobFinder [팀 프로젝트]  
+**구인구직 플랫폼 (2025.03.04 ~ 2025.03.31)**  
+- Jsoup 크롤링, 인터뷰 리스트/상세/커뮤니티 CRUD  
+- 실시간 채팅, 좋아요/찜/댓글 좋아요 기능, 결제창 연결  
+- 기술: JSP, jQuery, Ajax, MyBatis, Oracle, Bootstrap  
+🔗 GitHub: [JsfirstProjcet](https://github.com/JsfirstProjcet)
 
 ---
 
-## 🛠️ Once I’ve Used
-<p>
-  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JSP-007396?style=flat"/>
-  <img src="https://img.shields.io/badge/MyBatis-000000?style=flat"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-</p>
+### 🔹 Hotel Platform [개인 프로젝트]  
+**호텔 예약 SPA (2025.05.26 ~ 2025.06.02)**  
+- Redux 기반 커뮤니티/리스트/유튜브 검색  
+- Node.js 기반 호텔 검색, 카카오 지도/네이버 뉴스 출력  
+- 기술: React, Redux, Spring Boot, JPA, Node.js, MySQL/Oracle
+
+---
+
+### 🔹 Travel Platform [개인 프로젝트]  
+**TanStack Query 기반 관광/상품 플랫폼**  
+- TanStack Query로 CRUD 및 상태관리 구현  
+- 커뮤니티, 관광지, 댓글, API 검색 통합 구현  
+- 기술: React, TanStack Query, Spring Boot, JPA, Node.js
+
+---
+
+## 📖 Experience
+
+- 🇮🇳 인도 마드라스 대학 교환학생 (Diploma in Java, GPA 4.39/4.5)
+- 🧠 AWS 클라우드 기반 Full-Stack 개발자 양성과정 수료 (2024.11~2025.06)
+- 📜 정보처리기사 필기 합격 (2025.03)
+
+---
+
+## 📫 Contact
+
+| 항목 | 정보 |
+|------|------|
+| Email | gusdnrdkshf@gmail.com |
+| GitHub | [github.com/woogy9999](https://github.com/woogy9999) |
+| Blog | _(원하면 추가)_ |
+
+---
+
+> **"익숙해질 때까지 반복하고, 익숙해진 다음엔 개선합니다."**  
+> 기능 구현에 그치지 않고, 재사용성과 구조화를 고민하며 팀에 기여하는 개발자가 되겠습니다.
