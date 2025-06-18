@@ -2,6 +2,26 @@
 <p align="center">끈기와 반복으로 성장하고, 구조와 협업으로 완성합니다.</p>
 
 ---
+## 🚀 Tech Stack
+
+### ⚙️ Back-End
+- Java (JDK 17), Spring Framework 5, Spring Boot, JPA, MyBatis, JSP/Servlet, Django
+- REST API, OpenAPI, Elasticsearch
+
+### 🖥️ Front-End
+- React (Hooks), Redux, TanStack Query, Vue 3, Pinia, JavaScript (ES6), jQuery, Ajax
+- HTML5, CSS3, Bootstrap
+
+### 🗃️ Database
+- Oracle 21c, MySQL 8.0
+
+### 🛠 Infra & DevOps
+- **Docker**: Spring Boot 애플리케이션 이미지화, 컨테이너 배포  
+- **CI/CD**: GitHub Actions를 이용한 자동화된 빌드 & 배포 파이프라인 구축  
+- **AWS EC2**: Ubuntu 서버 환경에서 Nginx, Docker 기반 서비스 운영  
+- 기타: Apache Tomcat 9, Spring Embedded Tomcat, Django Dev Server, WinSCP, PuTTY
+
+
 ## 🔧 Once I've used
 
 <p align="center">
@@ -50,25 +70,6 @@
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white"/>
 </p>
-
-## 🚀 Tech Stack
-
-### ⚙️ Back-End
-- Java (JDK 17), Spring Framework 5, Spring Boot, JPA, MyBatis, JSP/Servlet, Django
-- REST API, OpenAPI, Elasticsearch
-
-### 🖥️ Front-End
-- React (Hooks), Redux, TanStack Query, Vue 3, Pinia, JavaScript (ES6), jQuery, Ajax
-- HTML5, CSS3, Bootstrap
-
-### 🗃️ Database
-- Oracle 21c, MySQL 8.0
-
-### 🛠 Infra & DevOps
-- **Docker**: Spring Boot 애플리케이션 이미지화, 컨테이너 배포  
-- **CI/CD**: GitHub Actions를 이용한 자동화된 빌드 & 배포 파이프라인 구축  
-- **AWS EC2**: Ubuntu 서버 환경에서 Nginx, Docker 기반 서비스 운영  
-- 기타: Apache Tomcat 9, Spring Embedded Tomcat, Django Dev Server, WinSCP, PuTTY
 
 ---
 
