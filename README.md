@@ -99,6 +99,7 @@
 - Redux 기반 커뮤니티/리스트/유튜브 검색  
 - Node.js 기반 호텔 검색, 카카오 지도/네이버 뉴스 출력  
 - 기술: React, Redux, Spring Boot, JPA, Node.js, MySQL/Oracle
+  
 🔗 GitHub: [Hotel Platform](https://github.com/woogy9999/ReactProject/tree/main/react-query-mylast-project)
 ---
 
@@ -108,6 +109,8 @@
 - 커뮤니티, 관광지, 댓글, API 검색 통합 구현  
 - 기술: React, TanStack Query, Spring Boot, JPA, Node.js
 
+
+🔗 GitHub: [Travel Platform](https://github.com/woogy9999/ReactProject/tree/main/redux-mylast-project)
 ---
 
 ## ⚙️ CI/CD & Docker 경험
