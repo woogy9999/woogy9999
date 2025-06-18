@@ -16,11 +16,11 @@
 ### 🗃️ Database
 - Oracle 21c, MySQL 8.0
 
-### 🛠 Tools & Infra
-- Eclipse, STS 3.9 / 4.24, WebStorm, VS Code, PyCharm  
-- Apache Tomcat 9, Spring Embedded Tomcat, Django Dev Server  
-- GitHub, AWS EC2, Docker, WinSCP, PuTTY  
-- ERDCloud, draw.io
+### 🛠 Infra & DevOps
+- **Docker**: Spring Boot 애플리케이션 이미지화, 컨테이너 배포  
+- **CI/CD**: GitHub Actions를 이용한 자동화된 빌드 & 배포 파이프라인 구축  
+- **AWS EC2**: Ubuntu 서버 환경에서 Nginx, Docker 기반 서비스 운영  
+- 기타: Apache Tomcat 9, Spring Embedded Tomcat, Django Dev Server, WinSCP, PuTTY
 
 ---
 
@@ -30,7 +30,8 @@
 **캠핑 종합 플랫폼 (2025.04.23 ~ 2025.05.21)**  
 - Vue.js + MyBatis 기반 다중 필터링, 좋아요, CCTV API 연동
 - 쿠키 기반 최근 본 캠핑장 기능, 예약/장바구니, 댓글 CRUD
-- 기술: Vue 3, Spring, MyBatis, JSP, Oracle, Tomcat  
+- AWS EC2 배포 및 GitHub Actions 기반 CI/CD 자동화 구성
+- 기술: Vue 3, Spring, MyBatis, JSP, Oracle, Docker, GitHub Actions  
 🔗 GitHub: [Camp_Project](https://github.com/SpringSecondProject)
 
 ---
@@ -57,6 +58,22 @@
 - TanStack Query로 CRUD 및 상태관리 구현  
 - 커뮤니티, 관광지, 댓글, API 검색 통합 구현  
 - 기술: React, TanStack Query, Spring Boot, JPA, Node.js
+
+---
+
+## ⚙️ CI/CD & Docker 경험
+
+### Docker
+- Spring Boot 프로젝트를 `Dockerfile`로 이미지화하여 `DockerHub`에 업로드  
+- `docker-compose`를 통한 DB + 백엔드 통합 실행 환경 구성  
+- Ubuntu EC2 서버에서 `docker run`으로 단일 앱 배포
+
+### GitHub Actions (CI/CD)
+- `main` 브랜치에 Push될 때 자동으로:
+  - `./gradlew build -x test` 실행
+  - Docker 이미지 생성 및 DockerHub 푸시
+  - SSH를 통한 EC2 원격 배포 자동화 (`rsync`, `scp` 사용)
+- `.yml` 구성으로 Java + Docker 빌드 통합 파이프라인 운영 경험 보유
 
 ---
 
