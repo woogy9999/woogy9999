@@ -99,7 +99,7 @@
 - Redux 기반 커뮤니티/리스트/유튜브 검색  
 - Node.js 기반 호텔 검색, 카카오 지도/네이버 뉴스 출력  
 - 기술: React, Redux, Spring Boot, JPA, Node.js, MySQL/Oracle
-
+🔗 GitHub: [Hotel Platform](https://github.com/woogy9999/ReactProject/tree/main/react-query-mylast-project)
 ---
 
 ### 🔹 Travel Platform [개인 프로젝트]  
@@ -140,7 +140,7 @@
 |------|------|
 | Email | gusdnrdkshf@gmail.com |
 | GitHub | [github.com/woogy9999](https://github.com/woogy9999) |
-| Blog | _(원하면 추가)_ |
+| Blog | [https://woogy99.tistory.com/](https://woogy99.tistory.com) |
 
 ---
 
