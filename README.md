@@ -112,19 +112,23 @@
 
 ---
 
-## ⚙️ CI/CD & Docker 경험
+⚙️ CI/CD & Docker 경험
 
-### Docker
-- Spring Boot 프로젝트를 `Dockerfile`로 이미지화하여 `DockerHub`에 업로드  
-- `docker-compose`를 통한 DB + 백엔드 통합 실행 환경 구성  
-- Ubuntu EC2 서버에서 `docker run`으로 단일 앱 배포
+🐳 Docker
+Spring Boot 프로젝트를 Dockerfile로 이미지화하여 DockerHub에 업로드
 
-### GitHub Actions (CI/CD)
-- `main` 브랜치에 Push될 때 자동으로:
-  - `./gradlew build -x test` 실행
-  - Docker 이미지 생성 및 DockerHub 푸시
-  - SSH를 통한 EC2 원격 배포 자동화 (`rsync`, `scp` 사용)
-- `.yml` 구성으로 Java + Docker 빌드 통합 파이프라인 운영 경험 보유
+Ubuntu EC2 서버에서 docker run 명령어로 직접 배포 수행
+
+포트 충돌, 컨테이너 중지 및 재실행, 이미지 태깅 등 운영 상황 직접 해결
+
+🚀 GitHub Actions (CI/CD)
+main 브랜치 Push 시 ./gradlew build -x test로 자동 빌드
+
+빌드된 결과물을 기반으로 Docker 이미지 생성 및 DockerHub 푸시
+
+SSH key 설정 및 rsync를 활용한 EC2 서버 원격 전송 자동화 경험
+
+.yml 스크립트를 직접 구성하여 Java + Docker 통합 파이프라인 운영
 
 ---
 
